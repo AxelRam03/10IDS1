@@ -1,0 +1,19 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Vue / Vite / Node
+node_modules/
+dist/
+coverage/
+npm-debug.log*
+
+# Local files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
